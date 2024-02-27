@@ -143,4 +143,21 @@ Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinatio
 		and dea.date = vac.date
 	where dea.continent is not null;
 ```
+### Analyze 
+![COVIDdeathcount](https://github.com/herman12366/AnalystProjects/assets/20954773/c189387d-b585-45aa-8cfd-9bcff640f1af)
+From the first query that was excuted we can see that the highest death rate was 8.696% in May of 2020 in the United States. As the time increases we can see a steady decline in the death percentage due to COVID. 
 
+![Percentinfected](https://github.com/herman12366/AnalystProjects/assets/20954773/78b0bb91-0df8-42cd-a017-d76000388971)
+The data collected from the percent infected tells a different story compared to the death percentage. For the death percentage, the data looked more like a bell curve. Originally, the death percentage started increasing and after reaching it's peak it started declining. However, with this data we can see that the percentage of infected people have increased ever since and has not slowed down. 
+
+![Percentinfectedworld](https://github.com/herman12366/AnalystProjects/assets/20954773/bf21deaf-4da6-4f69-ba74-1a30e522b6ad)
+Just like the last query that was executed this one shows the highest infection percentage based on countries. We can see major countries having a high infection rate like France compared to other nations. 
+
+![deathcountworld](https://github.com/herman12366/AnalystProjects/assets/20954773/0f6cb87b-7873-46b4-b7c7-ad576f5df410)
+This query resulted in showing use the highest death percentage based on countries. Again we can see major countries being listed on this list. United States being the highest followed by countries like India, Germany, France, and many more. 
+
+https://public.tableau.com/views/CovidDashboard_16976059943100/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+The dashboard created displays the data that was collected throughout the queries with a forecast projection for major counties. 
+
+### Conclusion 
+In the pursuit of unraveling COVID-19 trends, the data analysis journey has revealed crucial insights that transcend mere statistics. Through an array of SQL queries, we scrutinized infection and mortality rates, vaccine distribution dynamics, and regional disparities. We can use the data collected to better prepare for the future and use forecasting tools to predict the percentage infected. Based on the data, it is likely that the percentage of infected will keep on growing. However, if the right steps are taken we can continue to decrease the death percentage stat over time. 
